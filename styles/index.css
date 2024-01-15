@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Mulish&family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap');
+
+
+
+/* this is header part */
+header{
+    
+    margin: 0 30px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+
+}
+.title{
+    font-family: Mulish sans-serif;
+    font-size: 36px;
+
+}
+.list-style{
+    display: flex;
+    align-items: center;
+}
+.list-item{
+    display: flex;
+    font-family: Mulish;
+    font-size: 18px;
+
+
+}
+.list-item li{
+    padding-right: 20px;
+    list-style: none;
+    
+}
+.list-item a{
+    text-decoration: none;
+}
+nav ul li a {
+    text-transform: uppercase;
+}
+
+
+/* this is main part */
+.baner{
+    display: flex;
+    justify-content: center;
+    
+}
+.img-1{
+    width: 1770px; 
+    height: 500px;
+}
+
+
+
+
+
+/* media screen */
+@media screen and (max-width:600) {
+
+    .logo{
+        display: fixed;
+    }
+
+}

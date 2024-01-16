@@ -4,8 +4,10 @@
 
 /* this is header part */
 header{
+    width: 100%;
     
-    margin: 0 30px;
+    background-color: #fff;
+    position: sticky;
     
 }
 .navbar{
@@ -104,14 +106,18 @@ background: rgba(255, 255, 255, 0.30);
     width: 150px;
     height: 40px;
 }
-
-
-
-
-@media screen and(max-width:600) {
-    .baner-tools{
-        display: grid;
-        grid-template-columns: repeat(1fr);
-    }
+.third-topic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    height:auto;
+    gap: 80px;
+}
+.destination{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
 }
 

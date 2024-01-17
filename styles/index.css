@@ -33,6 +33,7 @@ header{
     display: flex;
     font-family: Mulish sans-serif;
     font-size: 18px;
+    width: 50%;
 
 
 }
@@ -99,12 +100,13 @@ nav ul li a {
     margin-left: 30%;
     margin-top: 5%;
     border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.30);
 
 }
 .option{
     width: 150px;
     height: 40px;
+    border-radius: 8px;
 }
 .third-topic{
     display: flex;
@@ -217,7 +219,7 @@ label{
     text-shadow: 10px 10px 10px rgb(223, 84, 9);
     }
 footer{
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 30px;
     background-color: rgba(187, 182, 175, 0.614);
 }
